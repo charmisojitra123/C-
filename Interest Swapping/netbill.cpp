@@ -21,7 +21,7 @@ int main()
     netbill=billamt+gst;
 
     cout<<"Rate\tQty\tAmount\tDis\tBillamt\tGst\tNetbill"<<endl;
-    cout<<"\t"<<rate"\t"<<qty"\t"<<amt"\t"<<dis"\t"<<billamt"\t"<<gst"\t"<<netbill;
+    cout<<rate<<"\t"<<qty<<"\t"<<amt<<"\t"<<dis<<"\t"<<billamt<<"\t"<<gst<<"\t"<<netbill;
 
     return 0;
 }

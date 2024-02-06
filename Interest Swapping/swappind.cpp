@@ -5,10 +5,10 @@ int main()
     int a,b,c;
 
     cin>>a;  
-    cout<<a<<endl;
+    cout<<"Value of a :- "<<a<<endl;
 
     cin>>b; 
-    cout<<endl;
+    cout<<"Value of b :- "<<b<<endl;
 
     c=a;
     a=b;
