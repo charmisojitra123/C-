@@ -5,7 +5,7 @@ using namespace std;
 class test{
     private:
     int Testcode;
-    char Description;
+    char Description[20];
     int NoCandidate;
     float CenterReqd=0;
     float CALCNTR(){
@@ -23,7 +23,6 @@ class test{
         cout <<  "Enter the number of Candidates: ";
         cin >> NoCandidate;
         CenterReqd=CALCNTR();
-        cout <<  CenterReqd;
     }
 
     void DISPTEST()
