@@ -11,14 +11,13 @@ class flight{
     float  CALFUEL()
     {
         if(distance <= 1000){
-            1000-distance;
-            fuel = 500 * distance;
+            fuel = 500 * distance/1000;
         }
         else if(distance <= 2000){
-            fuel = 1100 * distance;
+            fuel = 1100 * distance/1000;
         }
         else {
-            fuel = 2200 * distance;
+            fuel = 2200 * distance/1000;
         }
     }
 
@@ -31,7 +30,7 @@ class flight{
         cin >> destination;
         cout << "Distance: ";
         cin >> distance;
-        fuel=CALFUEL();
+        CALFUEL();
         cout << fuel;
     }
 };
