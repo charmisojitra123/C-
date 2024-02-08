@@ -42,7 +42,7 @@ class report
         {
             cout << "Marks of subject " << i+1 << " :- " << marks[i] << endl;
         }
-        cout << "Average: " << average << endl;
+        cout << "Average Marks: " << average << endl;
     }
 };
 
