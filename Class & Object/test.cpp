@@ -27,7 +27,7 @@ class test{
 
     void DISPTEST()
     {
-         cout << "\n\nDisplay Test: "<< endl;
+        cout << "\n\nDisplay Test: "<< endl;
         cout << "Testcode: " << Testcode << endl;
         cout <<  "Description: " << Description << endl;
         cout <<  "NoCandidate: " << NoCandidate << endl;
