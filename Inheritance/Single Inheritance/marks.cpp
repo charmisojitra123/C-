@@ -33,10 +33,11 @@ class derived : public base
     {
         for(int i=0;i<3;i++)
         {
+            cout << "\n";
             total[i] = eng[i] + hindi[i] + guj[i];   
-            cout << "Total marks obtained is :-" << total << endl;       
+            cout << "Total marks obtained is :-" << total[i] << endl;       
             per[i] = total[i]/3;
-            cout << "Percentage obtained is :-" << per << endl;
+            cout << "Percentage obtained is :-" << per[i] << endl;
         }
     }
 
