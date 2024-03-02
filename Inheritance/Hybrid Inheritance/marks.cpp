@@ -7,7 +7,7 @@ float eng,guj,hindi;
 class info
 {
     public:
-    float id;
+    int id;
     char name[20];
 
     void studentinfo()
