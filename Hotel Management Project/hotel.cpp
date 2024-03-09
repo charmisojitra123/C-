@@ -18,6 +18,11 @@ class menu
         cout << "8. Cheesecake\t\t\tRs. 240" << endl;
         cout << "0. Please give the bill." << endl;
     }
+
+    void totalbill()
+    {
+        cout << "Soup" << soupqty << souptotal;
+    }
 };
 
 int main()
@@ -88,6 +93,10 @@ int main()
     }
     while(choice != 0);
 
+
+
+    
+    obj.totalbill();
     
     
     return 0;
